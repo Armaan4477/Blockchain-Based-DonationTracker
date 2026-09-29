@@ -1,0 +1,128 @@
+INFO [09-28|14:22:53.774] Starting Geth on Ethereum mainnet...
+INFO [09-28|14:22:53.777] Maximum peer count                       ETH=50 total=50
+INFO [09-28|14:22:53.780] Set global gas cap                       cap=50,000,000
+INFO [09-28|14:22:53.780] Engine API maximum reorg depth           depth=32
+INFO [09-28|14:22:53.861] Using developer account                  address=0x71562b71999873DB5b286dF957af199Ec94617F7
+INFO [09-28|14:22:53.862] Defaulting to pebble as the backing database
+INFO [09-28|14:22:53.862] Allocated cache and file handles         database=/Users/armaan/Downloads/BC_PROJECT/geth-data/geth/chaindata cache=2.00GiB handles=5120 version=v2
+INFO [09-28|14:22:53.938] Opened ancient database                  database=/Users/armaan/Downloads/BC_PROJECT/geth-data/geth/chaindata/ancient/chain readonly=false
+INFO [09-28|14:22:53.938] Opened Era store                         datadir=/Users/armaan/Downloads/BC_PROJECT/geth-data/geth/chaindata/ancient/chain/era
+INFO [09-28|14:22:53.938] Freezer shutting down
+INFO [09-28|14:22:53.955] Initializing the KZG library             backend=gokzg
+INFO [09-28|14:22:53.955] Allocated trie memory caches             clean=614.00MiB dirty=1.00GiB
+INFO [09-28|14:22:53.955] Using pebble as the backing database
+INFO [09-28|14:22:53.955] Allocated cache and file handles         database=/Users/armaan/Downloads/BC_PROJECT/geth-data/geth/chaindata cache=2.00GiB handles=5120 version=v2
+INFO [09-28|14:22:53.995] Opened ancient database                  database=/Users/armaan/Downloads/BC_PROJECT/geth-data/geth/chaindata/ancient/chain readonly=false
+INFO [09-28|14:22:53.995] Opened Era store                         datadir=/Users/armaan/Downloads/BC_PROJECT/geth-data/geth/chaindata/ancient/chain/era
+WARN [09-28|14:22:53.995] Head block is not reachable
+INFO [09-28|14:22:53.995] State schema set to default              scheme=path
+INFO [09-28|14:22:53.997] Initialising Ethereum protocol           network=1337 dbversion=<nil>
+WARN [09-28|14:22:53.997] Sanitizing invalid node buffer size      provided=1.00GiB updated=256.00MiB
+INFO [09-28|14:22:53.997] Load database journal from disk
+INFO [09-28|14:22:54.040] Opened ancient database                  database=/Users/armaan/Downloads/BC_PROJECT/geth-data/geth/chaindata/ancient/state readonly=false
+INFO [09-28|14:22:54.040] State snapshot generator is not found
+INFO [09-28|14:22:54.040] Starting snapshot generation             root=56e81f..63b421 accounts=0 slots=0 storage=0.00B dangling=0 elapsed="14.125µs"
+INFO [09-28|14:22:54.040] Initialized path database                triecache=614.00MiB statecache=409.00MiB buffer=256.00MiB state-history="last 90000 blocks" journal-dir=/Users/armaan/Downloads/BC_PROJECT/geth-data/geth/triedb
+INFO [09-28|14:22:54.040] Writing custom genesis block
+INFO [09-28|14:22:54.040] Resuming snapshot generation             root=56e81f..63b421 accounts=0 slots=0 storage=0.00B dangling=0 elapsed="280.917µs"
+INFO [09-28|14:22:54.041] Generated snapshot                       accounts=0 slots=0 storage=0.00B dangling=0 elapsed="490.708µs"
+INFO [09-28|14:22:54.043] 
+INFO [09-28|14:22:54.044] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [09-28|14:22:54.044] Chain ID:  1337 (unknown)
+INFO [09-28|14:22:54.045] Consensus: unknown
+INFO [09-28|14:22:54.045] 
+INFO [09-28|14:22:54.045] Pre-Merge hard forks (block based):
+INFO [09-28|14:22:54.045]  - Homestead:                   #0       
+INFO [09-28|14:22:54.045]  - Tangerine Whistle (EIP 150): #0       
+INFO [09-28|14:22:54.045]  - Spurious Dragon/1 (EIP 155): #0       
+INFO [09-28|14:22:54.045]  - Spurious Dragon/2 (EIP 158): #0       
+INFO [09-28|14:22:54.045]  - Byzantium:                   #0       
+INFO [09-28|14:22:54.045]  - Constantinople:              #0       
+INFO [09-28|14:22:54.045]  - Petersburg:                  #0       
+INFO [09-28|14:22:54.045]  - Istanbul:                    #0       
+INFO [09-28|14:22:54.045]  - Muir Glacier:                #0       
+INFO [09-28|14:22:54.045]  - Berlin:                      #0       
+INFO [09-28|14:22:54.045]  - London:                      #0       
+INFO [09-28|14:22:54.045]  - Arrow Glacier:               #0       
+INFO [09-28|14:22:54.045]  - Gray Glacier:                #0       
+INFO [09-28|14:22:54.045] 
+INFO [09-28|14:22:54.045] Merge configured:
+INFO [09-28|14:22:54.045]  - Total terminal difficulty:  0
+INFO [09-28|14:22:54.045] 
+INFO [09-28|14:22:54.045] Post-Merge hard forks (timestamp based):
+INFO [09-28|14:22:54.045]  - Shanghai:                    @0         
+INFO [09-28|14:22:54.045]  - Cancun:                      @0          blob: (target: 3, max: 6, fraction: 3338477)
+INFO [09-28|14:22:54.045]  - Prague:                      @0          blob: (target: 6, max: 9, fraction: 5007716)
+INFO [09-28|14:22:54.045]  - Osaka:                       @0         
+INFO [09-28|14:22:54.045]  - Bogota:                      @0         
+INFO [09-28|14:22:54.045] 
+INFO [09-28|14:22:54.045] All fork specifications can be found at https://ethereum.github.io/execution-specs/src/ethereum/forks/
+INFO [09-28|14:22:54.045] 
+INFO [09-28|14:22:54.045] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [09-28|14:22:54.045] 
+INFO [09-28|14:22:54.045] Loaded most recent local block           number=0 hash=790ac2..86d6ad age=57y6mo3w
+INFO [09-28|14:22:54.047] Initialized transaction indexer          range="last 2350000 blocks"
+INFO [09-28|14:22:54.178] Enabled full-sync                        head=0 hash=790ac2..86d6ad
+INFO [09-28|14:22:54.178] Gasprice oracle is ignoring threshold set threshold=2
+INFO [09-28|14:22:54.179] Registered sync override service
+WARN [09-28|14:22:54.179] You are running Geth in --dev mode. Please note the following:
+WARN [09-28|14:22:54.179] 
+WARN [09-28|14:22:54.179]   1. This mode is only intended for fast, iterative development without assumptions on
+WARN [09-28|14:22:54.179]      security or persistence.
+WARN [09-28|14:22:54.179]   2. The database is created in memory unless specified otherwise. Therefore, shutting down
+WARN [09-28|14:22:54.179]      your computer or losing power will wipe your entire block data and chain state for
+WARN [09-28|14:22:54.179]      your dev environment.
+WARN [09-28|14:22:54.179]   3. A random, pre-allocated developer account will be available and unlocked as
+WARN [09-28|14:22:54.179]      eth.coinbase, which can be used for testing. The random dev account is temporary,
+WARN [09-28|14:22:54.179]      stored on a ramdisk, and will be lost if your machine is restarted.
+WARN [09-28|14:22:54.179]   4. Mining is enabled by default. However, the client will only seal blocks if transactions
+WARN [09-28|14:22:54.179]      are pending in the mempool. The miner's minimum accepted gas price is 1.
+WARN [09-28|14:22:54.179]   5. Networking is disabled; there is no listen-address, the maximum number of peers is set
+WARN [09-28|14:22:54.179]      to 0, and discovery is disabled.
+WARN [09-28|14:22:54.179] 
+INFO [09-28|14:22:54.179] Starting peer-to-peer node               instance=Geth/v1.17.6-stable/darwin-arm64/go1.27.1
+WARN [09-28|14:22:54.179] P2P server will be useless, neither dialing nor listening
+INFO [09-28|14:22:54.194] IPC endpoint opened                      url=/Users/armaan/Downloads/BC_PROJECT/geth-data/geth.ipc
+INFO [09-28|14:22:54.194] HTTP server started                      endpoint=127.0.0.1:8545 auth=false prefix= cors=* vhosts=*
+INFO [09-28|14:22:54.195] New local node record                    seq=1,790,585,574,194 id=3bfe0078507eab6a ip=127.0.0.1 udp=0 tcp=0
+INFO [09-28|14:22:54.195] Started P2P networking                   self=enode://3c2c5e3563c71103226f12c4c2e4147935cdebd5d45c7df3982eaf78ed6535f8f0e485153310edf299a74ff5c01690b8c2ed0885521b4c97c5ea106a2891e93c@127.0.0.1:0
+INFO [09-28|14:22:54.195] Started log indexer
+INFO [09-28|14:22:55.094] Submitted transaction                    hash=0xa78d74db43b779784eaa9807ccc972a65582dbfa393401a6396fde7e63ab9496 from=0x71562b71999873DB5b286dF957af199Ec94617F7 nonce=0 recipient=0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1 value=50,000,000,000,000,000,000
+INFO [09-28|14:22:55.095] Starting work on payload                 id=0x03f0cf8676e9b258
+INFO [09-28|14:22:55.095] Updated payload                          id=0x03f0cf8676e9b258 number=1 hash=acafbb..2a9a37 txs=1 withdrawals=0 gas=21000 fees=2.1e-14 root=179b5f..1798bd elapsed="121.5µs"
+INFO [09-28|14:22:55.095] Stopping work on payload                 id=0x03f0cf8676e9b258 reason=delivery
+INFO [09-28|14:22:55.096] Imported new potential chain segment     number=1 hash=acafbb..2a9a37 blocks=1 txs=1 mgas=0.021 elapsed="397.751µs" mgasps=52.797 triediffs=2.23KiB triedirty=0.00B
+INFO [09-28|14:22:55.096] Chain head was updated                   number=1 hash=acafbb..2a9a37 root=179b5f..1798bd elapsed="29.875µs"
+INFO [09-28|14:22:55.096] Indexed transactions                     blocks=2 txs=1 tail=0 elapsed="111.125µs"
+INFO [09-28|14:22:55.130] Submitted transaction                    hash=0x474a6fc5f7e0040c563545294110e2b7850af15ba806ace97108a971f8550153 from=0x71562b71999873DB5b286dF957af199Ec94617F7 nonce=1 recipient=0xFFcf8FDEE72ac11b5c542428B35EEF5769C409f0 value=50,000,000,000,000,000,000
+INFO [09-28|14:22:55.136] Starting work on payload                 id=0x03c23bc802d43f79
+INFO [09-28|14:22:55.137] Updated payload                          id=0x03c23bc802d43f79 number=2 hash=645090..0d330b txs=1 withdrawals=0 gas=21000 fees=2.1e-14 root=5e8e19..8711c3 elapsed="91.667µs"
+INFO [09-28|14:22:55.137] Stopping work on payload                 id=0x03c23bc802d43f79 reason=delivery
+INFO [09-28|14:22:55.137] Imported new potential chain segment     number=2 hash=645090..0d330b blocks=1 txs=1 mgas=0.021 elapsed="170.251µs" mgasps=123.347 triediffs=5.07KiB triedirty=0.00B
+INFO [09-28|14:22:55.137] Chain head was updated                   number=2 hash=645090..0d330b root=5e8e19..8711c3 elapsed="15.625µs"
+INFO [09-28|14:22:59.191] Submitted transaction                    hash=0x07babbf97c0d8927d3cc60a6c3d1c5382ff937fd143268786997b3010bff0fe5 from=0x71562b71999873DB5b286dF957af199Ec94617F7 nonce=2 recipient=0x3Bd442d4A38Ab5dA0B25C7C10290BD5CCC614b08 value=50,000,000,000,000,000,000
+INFO [09-28|14:22:59.192] Starting work on payload                 id=0x03581ab2b18e7d12
+INFO [09-28|14:22:59.193] Updated payload                          id=0x03581ab2b18e7d12 number=3 hash=42eee4..207292 txs=1 withdrawals=0 gas=21000 fees=2.1e-14 root=fe3660..29e5ee elapsed="488.958µs"
+INFO [09-28|14:22:59.193] Stopping work on payload                 id=0x03581ab2b18e7d12 reason=delivery
+INFO [09-28|14:22:59.194] Imported new potential chain segment     number=3 hash=42eee4..207292 blocks=1 txs=1 mgas=0.021 elapsed="400.334µs" mgasps=52.456  triediffs=7.54KiB triedirty=0.00B
+INFO [09-28|14:22:59.194] Chain head was updated                   number=3 hash=42eee4..207292 root=fe3660..29e5ee elapsed="56.459µs"
+INFO [09-28|14:23:03.259] Submitted transaction                    hash=0x9562bac222713c290b8c1db64d525f9ce3526e967fd0116d9d284d31b3cc7474 from=0x71562b71999873DB5b286dF957af199Ec94617F7 nonce=3 recipient=0x794940f0d55B4dD6081a69B17E37BDb18E135a22 value=50,000,000,000,000,000,000
+INFO [09-28|14:23:03.260] Starting work on payload                 id=0x031a2e1e72b310ca
+INFO [09-28|14:23:03.261] Updated payload                          id=0x031a2e1e72b310ca number=4 hash=99bb14..483e15 txs=1 withdrawals=0 gas=21000 fees=2.1e-14 root=973d0b..89d40d elapsed="364.541µs"
+INFO [09-28|14:23:03.261] Stopping work on payload                 id=0x031a2e1e72b310ca reason=delivery
+INFO [09-28|14:23:03.261] Imported new potential chain segment     number=4 hash=99bb14..483e15 blocks=1 txs=1 mgas=0.021 elapsed="565.376µs" mgasps=37.143  triediffs=10.26KiB triedirty=0.00B
+INFO [09-28|14:23:03.262] Chain head was updated                   number=4 hash=99bb14..483e15 root=973d0b..89d40d elapsed="54.459µs"
+INFO [09-28|14:23:07.416] Submitted contract creation              hash=0x1ca0150b5861c2b2bb17f7790d0a9f2c427080a651daf19825a107a7d107aec6 from=0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1 nonce=0 contract=0xe78A0F7E598Cc8b0Bb87894B0F60dD2a88d6a8Ab value=0
+INFO [09-28|14:23:07.416] Starting work on payload                 id=0x038ad607a262b8c4
+INFO [09-28|14:23:07.417] Updated payload                          id=0x038ad607a262b8c4 number=5 hash=00dae7..6c3c93 txs=1 withdrawals=0 gas=1,107,672 fees=1.107672e-12 root=babbd4..a34bc4 elapsed="386.416µs"
+INFO [09-28|14:23:07.417] Stopping work on payload                 id=0x038ad607a262b8c4 reason=delivery
+INFO [09-28|14:23:07.418] Imported new potential chain segment     number=5 hash=00dae7..6c3c93 blocks=1 txs=1 mgas=1.108 elapsed="569.751µs" mgasps=1944.133 triediffs=13.54KiB triedirty=0.00B
+INFO [09-28|14:23:07.418] Chain head was updated                   number=5 hash=00dae7..6c3c93 root=babbd4..a34bc4 elapsed="125.459µs"
+INFO [09-28|14:23:19.852] Got interrupt, shutting down...
+INFO [09-28|14:23:19.852] HTTP server stopped                      endpoint=127.0.0.1:8545
+INFO [09-28|14:23:19.852] IPC endpoint closed                      url=/Users/armaan/Downloads/BC_PROJECT/geth-data/geth.ipc
+INFO [09-28|14:23:19.852] Ethereum protocol stopped
+INFO [09-28|14:23:19.852] Transaction pool stopped
+INFO [09-28|14:23:19.857] Persisting dirty state                   head=5 root=babbd4..a34bc4 layers=5
+INFO [09-28|14:23:19.875] Persisted dirty state to file            path=/Users/armaan/Downloads/BC_PROJECT/geth-data/geth/triedb/merkle.journal size=13.95KiB elapsed=18.346ms
+INFO [09-28|14:23:19.888] Blockchain stopped
